@@ -1,0 +1,7 @@
+.env
+.git
+**/__pycache__
+data/*.sqlite3*
+data/snapshots
+tests
+_build

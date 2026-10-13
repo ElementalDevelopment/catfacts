@@ -1,0 +1,39 @@
+{
+  "catalogue": {
+    "approved": 137,
+    "candidates": 2396,
+    "categories": [
+      "Anatomy",
+      "Behavior",
+      "Breeds",
+      "Coats & colors",
+      "Communication",
+      "Essentials",
+      "History",
+      "Kittens",
+      "Learning",
+      "Movement",
+      "Senses",
+      "Wild relatives"
+    ],
+    "jobs": {}
+  },
+  "checks": [
+    "make check: 9 acceptance tests",
+    "node --check public/app.js",
+    "browser: random shuffle, search whisker returned 3 facts, Senses returned 8 facts"
+  ],
+  "live_slack_tested": false,
+  "framework": "Literate AI inspired; no formal CLI onboarding",
+  "sha256": {
+    "source/catalog.py": "87d7e1279a1017abed0823a086b43e41be0508296833dc04634889f60ac94803",
+    "source/server.py": "c9de1ba18d78009bf15685b2067fa27d4ebc99eb49834ddb551536587e128a39",
+    "source/slack.py": "d3c20583dd24f2be4ae64cb2f305048bf8aa482366870f4b1798c7cea68909a8",
+    "public/index.html": "eb6c6367dcfbf181ff0b1fb5e1a3c5ea1aeee84e24a4c382702d4aa299c5c3ca",
+    "public/style.css": "a1cb6c1d49e93e0d8d3a09ccf220106d2fc89a24e97481ff3d1be8c7f6482a89",
+    "public/app.js": "43d1b5d26aa31a88b1dbdfc2a576a0d898e7a8c839fa2ba56416b0b05cbf40aa",
+    "data/seed.json": "276a3c26a99e973ae4eb106ae8100be028143aa6afbcdc3caa88502cb3c03165",
+    "specs/component.md": "39c499098bb9a4c8461b0140c54f0a113a4e02b94fa7a1e3ad5c9553cfdb2842",
+    "tests/test_acceptance.py": "6b6de528f80c64d25979410fa1cd382a58be313f2b7c5d8848cb9ab2fcb2ef3d"
+  }
+}
